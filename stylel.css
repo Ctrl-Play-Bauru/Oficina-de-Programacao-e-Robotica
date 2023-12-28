@@ -1,0 +1,45 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+body {
+    margin: 0;
+    font-family: "Roboto", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    background: linear-gradient(to left, #c1c5f6, #9378ff);
+}
+
+.container {
+    display: flex; 
+    align-items: center; 
+}
+
+.arteLogin {
+    width: 51.25%; 
+    height: auto; 
+    margin-top: -3%;
+}
+
+.formulario{
+    text-align: center;
+    margin-left: 10%;
+}
+
+.loginSenha{
+    width: 200px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+button {
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background: linear-gradient(to left, #9378ff, #c1c5f6);
+}
+
+.bemVindo{
+    font-size: 1.6em;
+}
+
+.suporte{
+    font-size: 1em;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Rampart One"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="stylel.css" />
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="container">
+      <img class="arteLogin" src="Arte Login 500x500.png" />
+      <div class="formulario">
+        <h1 class="bemVindo">
+          Bem Vindo à Feira de <br />
+          Programação e Robótica <br />
+          da Ctrl + Play🤖🚀
+        </h1>
+        <h4>Faça login e tenha acesso aos projetos de nossos alunos!</h4>
+        
+          <label for="">Usuário</label>
+          <br />
+          <input
+            class="loginSenha"
+            type="text"
+            maxlength="30"
+            placeholder="Digite seu Usuário"
+            required
+          />
+
+          <br /><br />
+
+          <label for="">Senha</label>
+          <br />
+          <input
+          id="senha"
+            class="loginSenha"
+            type="password"
+            maxlength="11"
+            placeholder="Digite sua Senha"
+            required
+          />
+
+          <br /><br />
+
+          <input type="checkbox" name="" id="" />
+          <label for="">Mantenha-me conectado</label>
+
+          <br /><br />
+          <a href="javascript:void(0);" onclick="entrar()"> <!-- Adicionei um onclick para chamar uma função personalizada -->
+            <button id="cadastroBtn" type="button">Entrar</button>
+          </a>
+
+          <br /><br />
+          <h2 class="suporte">
+            <a
+              href="https://api.whatsapp.com/send?phone=5514997179932&text=Olá, Tudo bem? Esqueci meu login e senha para acesso aos projetos da feira 😢!"
+              target="_blank"
+              >Esqueceu sua Senha? <br />
+              Entre em contato conosco</a
+            >
+          </h2>
+        
+      </div>
+    </div>
+    <script src="validarLogin.js"></script>
+  </body>
+</html>

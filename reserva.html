@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-...." crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="styleleo.css">
+    <title>Grande Turismo</title>
+</head>
+<body>
+    <div class="container-fluid header">
+        <div class="row">
+            <div class="col-md-4"><img src="logo_horizontal.png" alt="Grande Turismo Logo" width="350px"></div>
+            <div class="col-md-4 offset-md-4">
+                <ul class="nav justify-content-end mr-5">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Sobre Nós</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Pacotes de Viagens</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Contato</a>
+                    </li>
+                  </ul>
+            </div>
+        </div>
+    </div>
+    <center>
+        <div class="container-fluid">
+            <div class="ofertasHeader">
+                <h1 id="ofertasHeader"><font color="white">Ofertas Dísponíveis</font></h1>
+            </div>
+            <br><br>    
+            <div class="row">
+                <div class="col">
+                    <div class="container ofertasPrincipais">
+                        <img src="hotel_saint_paul.jpg" alt="Saint Paul" class="imgOfertas"><br><br>
+                        <h3>Saint Paul</h3><br>
+                        <button type="button" class="btn btn-primary ver_oferta" id="oferta1">Ver Oferta</button>
+                    </div>
+                </div><!--3.9 Estrelas-->
+                <div class="col">
+                    <div class="container ofertasPrincipais">
+                        <img src="hotel_flautistas.jpg" alt="Suítes Flautistas" class="imgOfertas"><br><br>
+                        <h3>Suítes Flautistas</h3><br>
+                        <button type="button" class="btn btn-primary ver_oferta" id="oferta2">Ver Oferta</button>
+                    </div>
+                </div><!--4.4 Estrelas-->
+                <div class="col">
+                    <div class="container ofertasPrincipais">
+                        <img src="hotel_espaço_light.jpg" alt="Hotel Espaço Light Mari" class="imgOfertas"><br><br>
+                        <h3>Hotel Espaço Light (Mari)</h3><br>
+                        <button type="button" class="btn btn-primary ver_oferta" id="oferta3">Ver Oferta</button>
+                    </div>
+                </div><!--4.7 Estrelas-->
+                <div class="col">
+                    <div class="container ofertasPrincipais">
+                        <img src="hotel_jardim.jpg" alt="Hotel Jardim" class="imgOfertas"><br><br>
+                        <h3>Hotel Jardim</h3><br>
+                        <button type="button" class="btn btn-primary ver_oferta" id="oferta4">Ver Oferta</button>
+                    </div>
+                </div><!--4.6 Estrelas-->
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="container ofertasPrincipais">
+                        <img src="hotel_fiesta.jpg" alt="Hotel Fiesta" class="imgOfertas"><br><br>
+                        <h3>Fiesta Bahia Hotel</h3><br>
+                        <button type="button" class="btn btn-primary ver_oferta" id="oferta5">Ver Oferta</button>
+                    </div>
+                </div><!--4.5 Estrelas-->
+                <div class="col">
+                    <div class="container ofertasPrincipais">
+                        <img src="amazona_place.jpg" alt="Amazônia Place Hotel" class="imgOfertas"><br><br>
+                        <h3>Amazônia Place Hotel</h3><br>
+                        <button type="button" class="btn btn-primary ver_oferta" id="oferta6">Ver Oferta</button>
+                    </div>
+                </div><!--4.4 Estrelas-->
+                <div class="col">
+                    <div class="container ofertasPrincipais">
+                        <img src="hospedagem.jpg" alt="Hospedagem I" class="imgOfertas"><br><br>
+                        <h3>Hospedagem I</h3><br>
+                        <button type="button" class="btn btn-primary ver_oferta" id="oferta7">Ver Oferta</button>
+                    </div>
+                </div><!--4.4 Estrelas-->
+                <div class="col">
+                    <div class="container ofertasPrincipais">
+                        <img src="Recanto_familia.jpg" alt="Recanto da Família Sagrada" class="imgOfertas"><br><br>
+                        <h3>Recanto da Família Sagrada</h3><br>
+                        <button type="button" class="btn btn-primary ver_oferta" id="oferta8">Ver Oferta</button>
+                    </div>
+                </div><!--4.8 Estrelas-->
+            </div>
+        </div>
+        <!--Tela 1-->
+        <div class="mostrar_ofertas" id="tela_oferta1">
+            <div style="margin-right: 1%;">
+                <img src="hotel_saint_paul.jpg" alt="Saint Paul" class="imgOfertasFinal">
+            </div>
+            <div style="margin-left: 1%;">
+                <h1>Saint Paul</h1>
+                <h2>3.9 <i class="fa-solid fa-star"></i></h2><br><br>
+                <h1>A partir de R$499,90</h1><br><br>
+                <h2>Bauru - SP <i class="fa-solid fa-location-dot"></i></h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3690.5488500677584!2d-49.0704449883123!3d-22.332895817529998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bf670997fb9139%3A0x47a9f640fea538c9!2sSaint%20Paul%20(Bauru)!5e0!3m2!1spt-BR!2sbr!4v1702014570634!5m2!1spt-BR!2sbr" width="450" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <br><br><br>
+                <button type="button" class="btn btn-success btn-lg" id="reservar_hotel1">Reservar Hotel</button>
+            </div>
+        </div>
+        <!--Tela 2-->
+        <div class="mostrar_ofertas" id="tela_oferta2">
+            <div style="margin-right: 1%;">
+                <img src="hotel_flautistas.jpg" alt="Suítes Flautistas" class="imgOfertasFinal">
+            </div>
+            <div style="margin-left: 1%;">
+                <h1>Suítes Flautistas</h1>
+                <h2>4.4 <i class="fa-solid fa-star"></i></h2><br><br>
+                <h1>A partir de R$599,90</h1><br><br>
+                <h2>Ubatuba - SP <i class="fa-solid fa-location-dot"></i></h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3660.453051044725!2d-45.072383188280874!3d-23.444117057208764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cd522c816182c1%3A0xf6cdeb9ebbc7f341!2sSu%C3%ADtes%20o%20Flautista!5e0!3m2!1spt-BR!2sbr!4v1702011466644!5m2!1spt-BR!2sbr" width="450" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <br><br><br>
+                <button type="button" class="btn btn-success btn-lg" id="reservar_hotel2">Reservar Hotel</button>
+            </div>
+        </div>
+        <!--Tela 3-->
+        <div class="mostrar_ofertas" id="tela_oferta3">
+            <div style="margin-right: 1%;">
+                <img src="hotel_espaço_light.jpg" alt="Espaço Light" class="imgOfertasFinal">
+            </div>
+            <div style="margin-left: 1%;">
+                <h1>Hotel Espaço Light (Mari)</h1>
+                <h2>4.7 <i class="fa-solid fa-star"></i></h2><br><br>
+                <h1>A partir de R$649,90</h1><br><br>
+                <h2>Piratininga - SP <i class="fa-solid fa-location-dot"></i></h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7377.0675874186145!2d-49.139851841308555!3d-22.408926149949572!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bf633648ff0149%3A0x31d82bd01946348b!2sHotel%20espa%C3%A7o%20Light%20(%20Mari)!5e0!3m2!1spt-BR!2sbr!4v1702014475921!5m2!1spt-BR!2sbr" width="450" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <br><br><br>
+                <button type="button" class="btn btn-success btn-lg" id="reservar_hotel3">Reservar Hotel</button>
+            </div>
+        </div>
+        <!--Tela 4-->
+        <div class="mostrar_ofertas" id="tela_oferta4">
+            <div style="margin-right: 1%;">
+                <img src="hotel_jardim.jpg" alt="Hotel Jardim" class="imgOfertasFinal">
+            </div>
+            <div style="margin-left: 1%;">
+                <h1>Hotel Jardim</h1>
+                <h2>4.6 <i class="fa-solid fa-star"></i></h2><br><br>
+                <h1>A partir de R$599,90</h1><br><br>
+                <h2>Jardim - MS <i class="fa-solid fa-location-dot"></i></h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14850.432352665102!2d-56.141944!3d-21.483889!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x947d2119e2a7c2e3%3A0x49049532a5cea6fd!2sHotel%20Jardim!5e0!3m2!1spt-BR!2sbr!4v1702014513574!5m2!1spt-BR!2sbr" width="450" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <br><br><br>
+                <button type="button" class="btn btn-success btn-lg" id="reservar_hotel4">Reservar Hotel</button>
+            </div>
+        </div>
+        <!--Tela 5-->
+        <div class="mostrar_ofertas" id="tela_oferta5">
+            <div style="margin-right: 1%;">
+                <img src="hotel_fiesta.jpg" alt="Hotel Fiesta" class="imgOfertasFinal">
+            </div>
+            <div style="margin-left: 1%;">
+                <h1>Fiesta Bahia Hotel</h1>
+                <h2>4.5 <i class="fa-solid fa-star"></i></h2><br><br>
+                <h1>A partir de R$599,90</h1><br><br>
+                <h2>Salvador - BH <i class="fa-solid fa-location-dot"></i></h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4623.178413603533!2d-38.46899188143765!3d-12.996512703579105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161b244e2ec031%3A0x6f159d6b9b6f6687!2sFiesta%20Bahia%20Hotel!5e0!3m2!1spt-BR!2sbr!4v1702142061699!5m2!1spt-BR!2sbr" width="450" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <br><br><br>
+                <button type="button" class="btn btn-success btn-lg" id="reservar_hotel5">Reservar Hotel</button>
+            </div>
+        </div>
+        <!--Tela 6-->
+        <div class="mostrar_ofertas" id="tela_oferta6">
+            <div style="margin-right: 1%;">
+                <img src="amazona_place.jpg" alt="Amazônia Place Hotel" class="imgOfertasFinal">
+            </div>
+            <div style="margin-left: 1%;">
+                <h1>Amazônia Place Hotel</h1>
+                <h2>4.4 <i class="fa-solid fa-star"></i></h2><br><br>
+                <h1>A partir de R$499,90</h1><br><br>
+                <h2>Rio Branco - AM <i class="fa-solid fa-location-dot"></i></h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16095827.137120796!2d-80.86694889104079!3d-9.963440335314601!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x917f8c50a07f5401%3A0xf99e4ff4854b8d1d!2sAmaz%C3%B4nia%20Palace%20Hotel!5e0!3m2!1spt-BR!2sbr!4v1702142248789!5m2!1spt-BR!2sbr" width="450" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <br><br><br>
+                <button type="button" class="btn btn-success btn-lg" id="reservar_hotel6">Reservar Hotel</button>
+            </div>
+        </div>
+        <!--Tela 7-->
+        <div class="mostrar_ofertas" id="tela_oferta7">
+            <div style="margin-right: 1%;">
+                <img src="hospedagem.jpg" alt="Hospedagem" class="imgOfertasFinal">
+            </div>
+            <div style="margin-left: 1%;">
+                <h1>Hospedagem I</h1>
+                <h2>4.4 <i class="fa-solid fa-star"></i></h2><br><br>
+                <h1>A partir de R$499,90</h1><br><br>
+                <h2>Angra Dos Reis - RJ <i class="fa-solid fa-location-dot"></i></h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7344.866091795897!2d-44.49436068534849!3d-23.007866873646165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9dae888b1856ef%3A0xcf96d7b88863a545!2sHospedagem%20I!5e0!3m2!1spt-BR!2sbr!4v1702143400264!5m2!1spt-BR!2sbr" width="450" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <br><br><br>
+                <button type="button" class="btn btn-success btn-lg" id="reservar_hotel7">Reservar Hotel</button>
+            </div>
+        </div>
+        <!--Tela 8-->
+        <div class="mostrar_ofertas" id="tela_oferta8">
+            <div style="margin-right: 1%;">
+                <img src="Recanto_familia.jpg" alt="Recanto da Família Sagrada" class="imgOfertasFinal">
+            </div>
+            <div style="margin-left: 1%;">
+                <h1>Recanto da Família Sagrada</h1>
+                <h2>4.8 <i class="fa-solid fa-star"></i></h2><br><br>
+                <h1>A partir de R$699,90</h1><br><br>
+                <h2>São Sebastião - BSB <i class="fa-solid fa-location-dot"></i></h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d122754.64550821786!2d-47.94618129730226!3d-15.957058537998504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93598a8876b43e6b%3A0x661998ef15f2aeff!2sRecanto%20Sagrada%20Familia!5e0!3m2!1spt-BR!2sbr!4v1702143929764!5m2!1spt-BR!2sbr" width="450" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <br><br><br>
+                <button type="button" class="btn btn-success btn-lg" id="reservar_hotel8">Reservar Hotel</button>
+            </div>
+        </div>
+    </center>
+    <footer>
+        <div class="container-fluid">
+            <img src="logo_removedbg.png" alt="Logo" width="350px" height="150px">
+        </div>
+        <h4>Ctrl+Play Bauru 2023 - Todos os direitos reservados©</h4>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
